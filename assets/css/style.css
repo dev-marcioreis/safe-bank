@@ -73,7 +73,7 @@ body {
     text-transform: capitalize;
     margin-block-end: 3rem;
 }
-section {
+.section {
     margin-block-start: 4rem;
 }
 h1, h2, h3, h4, h5 {
@@ -290,3 +290,39 @@ img {
 .form__bottom .btn {
     margin-block-start: 1rem;
 }
+
+
+/*==========Media Query Tablet==========*/
+@media (max-width: 1024px) {
+    .header {
+        display: none;
+    }
+    .mobile__container {
+        height: 100vh;
+        background-image: url('../images/bg-mobile2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: contrast(1.4);
+    }
+    .mobile__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 22rem;
+    }
+    .mobile__logo {
+        font-size: 2.2rem;
+        font-weight: 900;
+        color: var(--color-white);
+        text-transform: uppercase;
+    }
+    .mobile__logo span {
+        font-weight: 200;
+        text-transform: lowercase;
+    }
+    
+
+}
+
