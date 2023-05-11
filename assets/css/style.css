@@ -314,7 +314,7 @@ img {
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        gap: 20rem;
+        gap: 18rem;
     }
     .top {
         margin-block-start: 1rem;
@@ -365,7 +365,7 @@ img {
         bottom: -100%;
         left: 0;
         right: 0;
-        height: 16rem;
+        height: 20rem;
         background: var(--color-white);
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
