@@ -307,7 +307,6 @@ img {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
         filter: contrast(1.4);
         text-align: center;
     }
