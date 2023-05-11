@@ -299,6 +299,7 @@ img {
     }
     .mobile {
         position: relative;
+        overflow: hidden;
     }
     .mobile__container {
         height: 100vh;
@@ -357,8 +358,7 @@ img {
     }
     .bottom .btn__primary {
         background: none;
-        color: var(--color-white);
-        text-shadow: var(--shadow-1);
+        color: var(--color-dark);
         padding: .5rem;
         font-weight: 600;
     }
