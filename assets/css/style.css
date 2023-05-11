@@ -314,7 +314,7 @@ img {
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        gap: 18rem;
+        gap: 19rem;
     }
     .top {
         margin-block-start: 1rem;
@@ -357,7 +357,9 @@ img {
     }
     .bottom .btn__primary {
         background: none;
-        color: var(--color-primary);
+        color: var(--color-white);
+        text-shadow: var(--shadow-1);
+        padding: .5rem;
         font-weight: 600;
     }
     .country__container {
